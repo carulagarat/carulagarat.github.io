@@ -71,7 +71,7 @@ body header nav {
   width: calc(100% - 1em);
   justify-content: space-between;
 }
-button {
+header a {
   -webkit-appearance: none;
   font-family: inherit;
   border-radius: 0;
@@ -83,17 +83,18 @@ button {
   outline: 0;
   cursor: pointer;
 }
-button#id {
+a#id {
   display: flex;
   color: #333;
+  font-size: .8em;
   align-items: center;
   margin-right: 2em;
   transition: color 300ms ease-out, opacity 300ms ease-out;
 }
-button#id strong {
+a#id strong {
   transition: color 300ms ease-out;
 }
-button#id .img {
+a#id .img {
   display: block;
   height: 50px;
   width: 50px;
@@ -105,7 +106,7 @@ button#id .img {
   position: relative;
   overflow: hidden;
 }
-button#id .img::after {
+a#id .img::after {
   content: '';
   display: block;
   position: absolute;
@@ -117,27 +118,27 @@ button#id .img::after {
   opacity: 0;
   transition: opacity 300ms ease-out;
 }
-button#id .id {
+a#id .id {
   display: block;
 }
-button#id .id span {
+a#id .id span {
   display: block;
   text-align: left;
 }
-button#id .id span strong {
+a#id .id span strong {
   font-size: 1.3em;
   letter-spacing: 0;
 }
-button#id:hover {
+a#id:hover {
   color: #ff7979;
 }
-button#id:hover strong {
+a#id:hover strong {
   color: #ff7979;
 }
-button#id:hover .img::after {
+a#id:hover .img::after {
   opacity: 0.3;
 }
-button.project {
+a.project {
   -webkit-appearance: none;
   font-size: 12.8px;
   font-family: inherit;
@@ -151,10 +152,10 @@ button.project {
   letter-spacing: 0.05em;
   transition: opacity 300ms ease-out;
 }
-button.project:last-child {
+a.project:last-child {
   border-right: none;
 }
-button.project:hover {
+a.project:hover {
   opacity: 0.7;
 }
 .mainSection {
