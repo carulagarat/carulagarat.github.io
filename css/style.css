@@ -70,6 +70,7 @@ body header nav {
   align-items: center;
   width: calc(100% - 1em);
   justify-content: space-between;
+  
 }
 header a {
   -webkit-appearance: none;
