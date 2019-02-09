@@ -141,17 +141,17 @@ a#id:hover .img::after {
 }
 a.project {
   -webkit-appearance: none;
-  font-size: 12.8px;
+  font-size: 12.8px !important;
   font-family: inherit;
   border-radius: 0;
-  padding: 0 1em 0 0;
-  margin: 0 0 0 1em;
+  padding: 0 1em 0 0 !important;
+  margin: 0 0 0 1em !important;
   border-right: 1px solid #d6d6d6;
   color: #ff7979;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  transition: opacity 300ms ease-out;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  transition: opacity 300ms ease-out !important;
 }
 a.project:last-child {
   border-right: none;
