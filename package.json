@@ -2,7 +2,7 @@
   "name": "carulagarat.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://carulagarat.github.io",
+  "homepage": "https://carulagarat.github.io",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
